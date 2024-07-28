@@ -1,13 +1,10 @@
 # RPC-Java
 
-[【代码随想录知识星球】](https://www.programmercarl.com/other/kstar.html)项目分享-手撕RPC框架，[项目专栏](https://t.zsxq.com/0CVPn) 有本项目的详细文档
 
-* [第一章：项目背景、项目收获、简历写法、项目架构和流程图](https://t.zsxq.com/RtJmQ)
-* [第二章（版本一）：实现一个基本的rpc调用](https://t.zsxq.com/QImhy)
-* [第三章（版本二）：netty自定义编码器，解码器和序列化器，创建缓存](https://t.zsxq.com/osLak)
-* [第四章（版本三）：负载均衡、超时重试 &白名单](https://t.zsxq.com/zVqPE)
-* [第五章（版本四）：服务-限流、熔断](https://t.zsxq.com/Oj1gG0)
-* [第六章：项目常见问题以及如何回答（网络传输层面，注册中心层面，算法层面，各种场景题](https://t.zsxq.com/xOAAq)
+* 版本一：实现一个基本的rpc调用](https://t.zsxq.com/QImhy)
+* 版本二：netty自定义编码器，解码器和序列化器，创建缓存](https://t.zsxq.com/osLak)
+* 版本三：负载均衡、超时重试 &白名单](https://t.zsxq.com/zVqPE)
+* 版本四：服务-限流、熔断](https://t.zsxq.com/Oj1gG0)
 
 ## 启动流程
 
@@ -206,16 +203,6 @@
 
 
 
-
-# TodoList
-
-- [ ] 补充其它序列化方式（如ProtoBuf，Hessian）
-
-- [ ] 集成Spring
-
-- [ ] 主动下线失败次数过多的节点
-
-- [ ] 探测离线节点的状态，对恢复正常的节点重新上线
 
 - [ ] 实现自适应的负载均衡器
 
